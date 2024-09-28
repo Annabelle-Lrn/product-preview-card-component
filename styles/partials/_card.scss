@@ -1,0 +1,20 @@
+main{
+  display: grid;
+  place-items: center;
+  margin: 0.6rem;
+
+  .card{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+    .card_img{
+    width: auto;
+    height: 15.62rem;
+    background:url("/images/image-product-mobile.jpg") top/cover;
+    border-radius: 0.9rem 0.9rem 0 0 ;
+  }
+}
+  }
+
+  

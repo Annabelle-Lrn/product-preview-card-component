@@ -1,0 +1,30 @@
+@font-face {
+  font-family:"montserrat";
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+}
+@font-face {
+  font-family: "fraunces";
+  src: url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+}
+$montserrat:"montserrat";
+$fraunces:"fraunces";
+$darkBlue : hsl(212, 21%, 14%);
+$darkGrayish:hsl(228, 12%, 48%);
+$darkCyan:hsl(158, 36%, 37%);
+$cream:hsl(30, 38%, 92%);
+$white:hsl(0, 0%, 100%);
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+  background: $cream;
+}
+h1,p{
+  overflow-wrap: break-word;
+}
+button{
+  font-family:inherit;
+  border: none;
+}
