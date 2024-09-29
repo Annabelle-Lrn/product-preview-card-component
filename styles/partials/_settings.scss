@@ -19,10 +19,14 @@ $white:hsl(0, 0%, 100%);
   margin: 0;
   box-sizing: border-box;
   line-height: 1.5;
-  background: $cream;
 }
 h1,p{
   overflow-wrap: break-word;
+}
+p{
+
+  color:$darkGrayish;
+  font-family: $montserrat;
 }
 button{
   font-family:inherit;
