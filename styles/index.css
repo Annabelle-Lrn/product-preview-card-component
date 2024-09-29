@@ -38,4 +38,9 @@ main .card .card_img {
   height: 15.62rem;
   background: url("/images/image-product-mobile.jpg") top/cover;
   border-radius: 0.9rem 0.9rem 0 0;
+}
+main .card .card_categorie {
+  padding: 1rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5ch;
 }/*# sourceMappingURL=index.css.map */
