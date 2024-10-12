@@ -33,16 +33,14 @@ button {
 
 body {
   display: grid;
-  place-items: center;
-  padding-top: 10px;
+  background: hsl(30, 38%, 92%);
 }
 
 main {
-  height: 100%;
+  height: 80vh;
   display: grid;
   place-items: center;
-  margin: 0.6rem;
-  background: hsl(30, 38%, 92%);
+  margin: auto;
 }
 main .card {
   padding: 1rem;
@@ -141,10 +139,14 @@ main button .btn {
   font-weight: bold;
   font-size: 1rem;
 }
+main button .btn:hover {
+  background: hsl(212, 21%, 14%);
+  cursor: pointer;
+}
 
 .attribution {
-  display: flex;
-  flex-direction: column;
   position: absolute;
   bottom: 0;
+  left: 50%;
+  display: flex;
 }/*# sourceMappingURL=index.css.map */
