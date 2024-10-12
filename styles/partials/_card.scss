@@ -19,18 +19,18 @@ main{
     display: grid;
     grid-template-columns: 50% 50%;
     background: $white;
-    padding: 2rem 1rem 0.5rem;
-    height: 26rem;
+    padding: 1rem;
+    height: 80%;
     width:40rem;
 
    }
     .card_img{
     width: auto;
     height: 15.62rem;
-    background:url("images/image-product-mobile.jpg") top/cover;
+    background:url("/images/image-product-mobile.jpg") top/cover;
     border-radius: 0.9rem 0.9rem 0 0 ;
     @media screen and (min-width: 90rem ){
-      background: url("images/image-product-desktop.jpg") no-repeat center center;
+      background: url("/images/image-product-desktop.jpg") no-repeat center center;
       background-size: cover;
       height: 100%;
       border-radius: 0.9rem 0 0 0.9rem;
@@ -66,7 +66,7 @@ main{
     
     }
     .card_descrip_product{
-      padding: 1rem 0;
+  
       line-height: 2;
       font-size: 1rem;
         @media screen and (min-width: 90rem){
