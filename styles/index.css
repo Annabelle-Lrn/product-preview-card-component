@@ -31,7 +31,14 @@ button {
   border: none;
 }
 
+body {
+  display: grid;
+  place-items: center;
+  padding-top: 10px;
+}
+
 main {
+  height: 100%;
   display: grid;
   place-items: center;
   margin: 0.6rem;
@@ -47,6 +54,8 @@ main .card {
     display: grid;
     grid-template-columns: 50% 50%;
     background: hsl(0, 0%, 100%);
+    padding: 2rem 1rem;
+    height: 90%;
   }
 }
 main .card .card_img {
@@ -57,10 +66,12 @@ main .card .card_img {
 }
 @media screen and (min-width: 90rem) {
   main .card .card_img {
-    background: url("/images/image-product-desktop.jpg") cover;
-    -o-object-fit: contain;
-       object-fit: contain;
+    background: url("/images/image-product-desktop.jpg") no-repeat center center;
+    background-size: cover;
     height: 100%;
+    border-radius: 0.9rem 0 0 0.9rem;
+    padding: 0;
+    overflow: hidden;
   }
 }
 main .card .card_descrip {
