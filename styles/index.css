@@ -9,7 +9,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: content-box;
   line-height: 1.5;
 }
 
@@ -34,6 +34,7 @@ button {
 body {
   display: grid;
   background: hsl(30, 38%, 92%);
+  grid-template-rows: 99% 1%;
 }
 
 main {
@@ -43,15 +44,17 @@ main {
   margin: auto;
 }
 main .card {
+  margin: 1rem;
   padding: 1rem;
   display: flex;
   flex-direction: column;
+  height: auto;
+  background: hsl(0, 0%, 100%);
 }
 @media screen and (min-width: 90rem) {
   main .card {
     display: grid;
     grid-template-columns: 50% 50%;
-    background: hsl(0, 0%, 100%);
     padding: 1rem;
     height: 80%;
     width: 40rem;
@@ -141,11 +144,4 @@ main button .btn {
 main button .btn:hover {
   background: hsl(212, 21%, 14%);
   cursor: pointer;
-}
-
-.attribution {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  display: flex;
 }/*# sourceMappingURL=index.css.map */
