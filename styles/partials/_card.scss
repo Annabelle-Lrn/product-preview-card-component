@@ -20,8 +20,9 @@ main{
     display: grid;
     grid-template-columns: 50% 50%;
     background: $white;
-    padding: 2rem 1rem;
-    height: 90%;
+    padding: 2rem 1rem 0.5rem;
+    height: 26rem;
+    width:40rem;
 
    }
     .card_img{
@@ -41,25 +42,41 @@ main{
     .card_descrip{
       padding: 2rem 1.8rem;
       font-size: 0.9rem;
+      background: $white;
     }
     h1{
       line-height: 0.9;
       padding: 1.5rem 0;
       font-weight: 800;
-      font-family: $fraunces;
+      font-family: $fraunces;    
+      
     }
+     @media screen and (min-width: 90rem){
+      h1{
+        font-size: 2.5rem;
+        padding: 1rem 2rem 0 0;
+      }
+       
+      }
     .card_descrip_categorie{
     text-transform: uppercase;
     letter-spacing: 0.5ch;
     font-weight: lighter;
     
     }
-
+    
+    }
     .card_descrip_product{
       padding: 1rem 0;
       line-height: 2;
       font-size: 1rem;
+        @media screen and (min-width: 90rem){
+        font-size: 1rem;
+        padding-right: 2rem;
+      }
     }
+  
+       
     .card_price{
       display: flex;
       
@@ -95,8 +112,8 @@ main{
         font-size: 1rem;
     }
   }
-    }
- 
 }
+ 
+
 
   
