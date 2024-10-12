@@ -27,7 +27,7 @@ main{
     }
     }
     .card_descrip{
-      padding: 2rem;
+      padding: 2rem 1.8rem;
       font-size: 0.9rem;
     }
     h1{
@@ -60,20 +60,31 @@ main{
       .regular{
         display: flex;
         text-decoration-line: line-through;
-        padding: 1rem;
+        padding: 1.5rem;
 
       }
     }
     button{
-      background: $darkCyan;
-      color: $white;
       width: 100%;
-      padding: 0.5rem 0;
-      border-radius: 0.6rem;
-      font-weight: bold;
-      font-size: 1rem;
+      position: relative;
+      i{
+        position: absolute;
+        top: 35%;
+        left: 25%;
+        height:100%;
+      }
+      .btn{
+        background: $darkCyan;
+        color: $white;
+        width: 100%;
+        padding: 0.5rem 0;
+        border-radius: 0.6rem;
+        font-weight: bold;
+        font-size: 1rem;
     }
   }
+    }
+ 
 }
 
   

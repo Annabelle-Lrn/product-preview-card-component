@@ -13,6 +13,10 @@
   line-height: 1.5;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1, p {
   overflow-wrap: break-word;
 }
@@ -60,7 +64,7 @@ main .card .card_img {
   }
 }
 main .card .card_descrip {
-  padding: 2rem;
+  padding: 2rem 1.8rem;
   font-size: 0.9rem;
 }
 main .card h1 {
@@ -91,9 +95,19 @@ main .card .card_price .solde {
 main .card .card_price .regular {
   display: flex;
   text-decoration-line: line-through;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 main .card button {
+  width: 100%;
+  position: relative;
+}
+main .card button i {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  height: 100%;
+}
+main .card button .btn {
   background: hsl(158, 36%, 37%);
   color: hsl(0, 0%, 100%);
   width: 100%;
@@ -101,4 +115,9 @@ main .card button {
   border-radius: 0.6rem;
   font-weight: bold;
   font-size: 1rem;
+}
+
+.attribution {
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=index.css.map */
